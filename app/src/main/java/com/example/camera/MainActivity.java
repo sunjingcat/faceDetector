@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.TextureView;
 
+import com.example.camera.config.AppConfigKt;
+import com.troila.ai.FaceRecognition;
+
 import static android.hardware.Camera.CameraInfo.CAMERA_FACING_FRONT;
 
 public class MainActivity extends AppCompatActivity implements TextureView.SurfaceTextureListener {
