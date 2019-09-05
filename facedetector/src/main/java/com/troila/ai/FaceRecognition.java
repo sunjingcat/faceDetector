@@ -16,7 +16,6 @@ public class FaceRecognition {
         System.loadLibrary("SeetaFaceLandmarker2");
         System.loadLibrary("SeetaFaceRecognizer2");
         System.loadLibrary("seetanet2");
-
         System.loadLibrary("fr_android");
     }
 
